@@ -10,7 +10,7 @@ function onAppLaunched() {
     alert("LabView not found.");
     sleep(1000);
     exit(1);
-    return 0;;
+    return 0;
   }
 
 function onKeyPressed("scan", "key", "keypressed") {
