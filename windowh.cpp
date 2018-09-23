@@ -14,6 +14,10 @@ int main() {
     cout << "LabView instance found!" << endl;
     sleep(1);
     exit;
+  } else (hwnd != "LabView.exe" || hwnd != NULL) {
+    cout << "Error found. Please restart the process." << endl;
+    sleep(0);
+    exit;
   }
   
   return 0;
