@@ -15,17 +15,17 @@ int main() {
   } else if (hwnd == "LabView.exe") {
     cout << "LabView instance found!" << endl;
     sleep(1);
-  }
     cout << "Enter the Captain ID.";
-    if(getline(cin,id) != mechCaptainID || getline(cin,n) != safeCaptainID || getline(cin,n) != elecCaptainID) { 
+  if(getline(cin,id) != mechCaptainID || getline(cin,n) != safeCaptainID || getline(cin,n) != elecCaptainID) { 
     cout << "None of the IDs match." << endl;  
   }
     getline(cin,id);
     sleep(2);
     cout << "Enter their name.";
     getline(cin,name);
-    cout << "Login with ID" << endl;
+    cout << "Login with ID" << mechCaptainID || safeCaptainID || elecCaptainID << " ." << endl;
     exit;
+  }
   } else (hwnd != "LabView.exe" || hwnd != NULL) {
     cout << "Error found. Please restart the process." << endl;
     sleep(0);
