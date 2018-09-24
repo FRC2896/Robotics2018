@@ -9,7 +9,7 @@ public class mechCaptain {
   } else (mechCaptainID != 1) {
     System.out.println("Arguments failed.");
   }
-
+ 
   switch (mechCaptainID) {
     case '1':
       System.out.println("The Mechanical Captain ID was detected. You may continue.");
