@@ -3,7 +3,7 @@
 #include <Windows.h>
 #include <captainClasses>
 
-class mechCaptain {
+class captains {
   private: 
   int mechCaptainID = 1;
   int safeCaptainID = 1;
