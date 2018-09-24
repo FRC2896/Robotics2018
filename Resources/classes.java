@@ -58,6 +58,26 @@ public class safeCaptain {
     default:
       System.out.println("The Electrical Catpain ID was not detected. You have been halted.");
   }
+    
+// Animations Captain Class
+public class animCaptain {
+  const int animCaptainID = 1;
+  const bool isAdmin = 1;
+  if (animCaptainID > 1 || animCaptainID < 1) {
+    System.out.println("The ID does not match. It should be " + animCaptainID + " .");
+  } else if (animCaptainID == 1) {
+    System.out.println("The ID matches. The value was returned as " + animCaptainID + " .");
+  } else (animCaptainID != 1) {
+    System.out.println("Arguments failed.);
+  }
+                       
+     switch (animcCaptainID) {
+    case '1':
+      System.out.println("The Animations Captain ID was detected. You may continue.");
+      break;
+    default:
+      System.out.println("The Animations Catpain ID was not detected. You have been halted.");
+  }
   
  return 0;
 
