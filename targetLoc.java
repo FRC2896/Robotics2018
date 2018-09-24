@@ -6,8 +6,13 @@ public class robot extends dynamics {
   const boolean active = true;
   double onwall = 3.147568;
   
+public class location extends level {
+  const boolean coord = true;
+  String level = target.level;
+  
   public static void main(String[] args) {
     
     return 0;
+    }
   }
 }
