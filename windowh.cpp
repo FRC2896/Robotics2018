@@ -23,7 +23,7 @@ int main() {
     sleep(2);
     cout << "Enter their name.";
     getline(cin,name);
-    cout << "Login with ID" << mechCaptainID || safeCaptainID || elecCaptainID << " ." << endl;
+    cout << "Login with ID" << mechCaptainID || safeCaptainID || elecCaptainID << " and login name " << name <<  " ." << endl;
     exit;
   }
   } else (hwnd != "LabView.exe" || hwnd != NULL) {
