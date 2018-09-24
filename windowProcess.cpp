@@ -1,7 +1,37 @@
 #include <vector>
 #include <iostream>
 #include <Windows.h>
-#include <captainClasses.java>
+#include <captainClasses>
+
+class mechCaptain {
+  private: 
+  int mechCaptainID = 1;
+  int safeCaptainID = 1;
+  int elecCaptainID = 1;
+  
+  switch (mechCaptainID) {
+    case 1:
+      cout << "Mechanical Captain ID arguments met." << endl;
+      break;
+    default:
+      cout << "Mechanical Captain ID arguments not met." << endl;
+      break;
+      
+  switch (safeCaptainID) {
+    case 1:
+      cout << "Safety Captain ID arguments met." << endl;
+      break;
+    default:
+      cout << "Safety Captain ID arguments not met." << endl;
+      break;
+      
+  switch (elecCaptain) {
+    case 1:
+      cout << "Electrical Captain ID arguments met." << endl;
+      break;
+    default:
+      cout << "Electrical Captain ID arguments not met." << endl;
+      break;
 
 using namespace std;
 
