@@ -1,6 +1,6 @@
 // Mechanical Captain Class
 public class mechCaptain {
-  const int mechCaptainID= 1;
+  const int mechCaptainID = 1;
   const boolean isAdmin = 1;
   if (mechCaptainID > 1 || mechCaptainID < 1) {
     System.out.println("The ID does not match. It should be " + mechCaptainID + " .");
