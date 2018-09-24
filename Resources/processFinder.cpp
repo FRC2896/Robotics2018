@@ -53,12 +53,12 @@ int main() {
     sleep(1);
     cout << "Please enter your login ID." << endl;
     getline(cin,captainID);
-  if ((getline(cin,captainID)) != captainID) {
+  if (getline(cin,captainID) != captainID) {
     cout << "Login ID credentials invalid. Try again." << endl;
   }
-  if ((getline(cin,captainID)) = captainID) {
+  if (getline(cin,captainID) = captainID) {
     cout << "Login ID credentials valid." << endl;
-    sleep(1);
+    sleep(1.5);
     exit;
   }
   }
