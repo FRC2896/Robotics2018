@@ -48,15 +48,15 @@ int main() {
     cout << "Error in locating LabView instance. Please restart LabView." << endl;
     sleep(1.5);
     exit;
-  } else if (hwnd == "LabView.exe) {
+  } else if (hwnd == "LabView.exe") {
     cout << "LabView instance found." << endl;
     sleep(1);
     cout << "Please enter your login ID." << endl;
     getline(cin,captainID);
-  if (getline(cin,captainID) != captainID) {
+  if ((getline(cin,captainID)) != captainID) {
     cout << "Login ID credentials invalid. Try again." << endl;
   }
-  if (getline(cin,captainID) = captainID) {
+  if ((getline(cin,captainID)) = captainID) {
     cout << "Login ID credentials valid." << endl;
     sleep(1.5);
     exit;
