@@ -78,7 +78,26 @@ public class animCaptain {
     default:
       System.out.println("The Animations Catpain ID was not detected. You have been halted.");
   }
-  
+                       
+// Programming Captain Class
+public class progCaptain {
+  const int progCaptainID = 1;
+  const bool isAdmin = 1;
+  if (progCaptainID > 1 || progCaptainID < 1) {
+    System.out.println("The ID does not match. It should be " + progCaptainID + " .");
+  } else if (progaptainID == 1) {
+    System.out.println("The ID matches. The value was returned as " + progCaptainID + " .");
+  } else (progCaptainID != 1) {
+    System.out.println("Arguments failed.);
+  }
+                       
+     switch (animcCaptainID) {
+    case '1':
+      System.out.println("The Animations Captain ID was detected. You may continue.");
+      break;
+    default:
+      System.out.println("The Animations Catpain ID was not detected. You have been halted.");
+  }
  return 0;
 
 }
