@@ -68,7 +68,7 @@ public class animCaptain {
   } else if (animCaptainID == 1) {
     System.out.println("The ID matches. The value was returned as " + animCaptainID + " .");
   } else (animCaptainID != 1) {
-    System.out.println("Arguments failed.);
+    System.out.println("Arguments failed.");
   }
                        
      switch (animcCaptainID) {
