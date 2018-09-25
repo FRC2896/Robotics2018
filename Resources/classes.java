@@ -88,7 +88,7 @@ public class progCaptain {
   } else if (progaptainID == 1) {
     System.out.println("The ID matches. The value was returned as " + progCaptainID + " .");
   } else (progCaptainID != 1) {
-    System.out.println("Arguments failed.);
+    System.out.println("Arguments failed.");
   }
                        
      switch (animcCaptainID) {
