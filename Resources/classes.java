@@ -30,7 +30,7 @@ public class safeCaptain {
   } else (safeCaptainID != 1) {
     System.out.println("Arguments failed.");
   }
-  
+   
   switch (safeCaptainID) {
     case '1':
       System.out.println("The Safety Captain ID was detected. You may continue.");
